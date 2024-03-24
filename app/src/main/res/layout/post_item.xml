@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/selection_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Name of the publisher -->
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- Title of the post -->
+        <TextView
+            android:id="@+id/postTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userName"
+            android:text="Post Title"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Text content of the post -->
+        <TextView
+            android:id="@+id/postText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/postTitle"
+            android:text="Post content goes here..."
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <!-- Image content of the post -->
+        <ImageView
+            android:id="@+id/postImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/postText"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sample_image" />
+
+        <!-- Share icon -->
+        <ImageView
+            android:id="@+id/shareIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_share" />
+
+        <!-- Sync status icon -->
+        <ImageView
+            android:id="@+id/sync_status_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignTop="@+id/shareIcon"
+            android:layout_toStartOf="@+id/shareIcon"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_sync" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

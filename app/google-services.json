@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "671159556660",
+    "project_id": "mobile-blogging",
+    "storage_bucket": "mobile-blogging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671159556660:android:39d9b21ea19034098c0861",
+        "android_client_info": {
+          "package_name": "uk.ac.wlv.mobileblogging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPRNpP7Aca4WoM8I_rR5JtbBvOxz1ylg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MobileBlogging" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/mediumCyan</item>
+        <item name="colorPrimaryVariant">@color/darkCyan</item>
+        <!-- Status bar color-->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <item name="actionModeStyle">@style/MyActionModeStyle</item>
+    </style>
+
+    <!-- Style for the contextual action mode -->
+    <style name="MyActionModeStyle" parent="Widget.AppCompat.ActionMode">
+        <item name="background">@color/action_mode_background</item>
+        <item name="titleTextStyle">@style/MyActionModeTitleTextStyle</item>
+        <item name="android:textColor">@color/action_mode_text_color</item> <!-- Text color for the title and count -->
+        <item name="android:titleTextColor">@color/action_mode_text_color</item>
+    </style>
+
+    <!-- Style for the action mode title text -->
+    <style name="MyActionModeTitleTextStyle">
+        <item name="android:textColor">@color/action_mode_text_color</item>
+        <item name="android:textSize">24sp</item> <!-- Adjust text size -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomToolbarTitleText">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/pacifico</item>
+        <item name="android:iconTint">@color/white</item>
+    </style>
+
+    <style name="Theme.MobileBlogging" parent="Base.Theme.MobileBlogging" />
+</resources>

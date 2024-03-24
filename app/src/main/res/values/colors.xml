@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="mediumCyan">#008577</color>
+    <color name="darkCyan">#00574a</color>
+    <color name="selected_item_color">#618AAA</color>
+    <color name="non_selected_item_color">#FFFFFF</color>
+    <color name="lightGreen">#1fd655</color>
+    <color name="red">#FF0000</color>
+
+    <color name="action_mode_background">#60A1E2</color>
+    <color name="action_mode_text_color">#FFFFFF</color>
+    <color name="action_mode_item_icon_color">#FFFFFF</color>
+    <color name="back_button">#FFFFFF</color>
+</resources>
